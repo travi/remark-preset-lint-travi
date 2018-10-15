@@ -3,5 +3,6 @@ exports.plugins = [
   [require('remark-lint-list-item-indent'), 'space'],
   require('remark-lint-no-tabs'),
   require('remark-lint-final-definition'),
-  require('remark-validate-links')
+  require('remark-validate-links'),
+  [require('remark-lint-maximum-line-length'), 80]
 ];
