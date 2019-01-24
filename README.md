@@ -1,5 +1,7 @@
 # remark-preset-lint-travi
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/remark-preset-lint-travi.svg)](https://greenkeeper.io/)
+
 [remark](https://github.com/remarkjs/remark) [preset](https://github.com/remarkjs/remark/blob/master/doc/plugins.md#list-of-presets)
 to configure [remark-lint](https://github.com/remarkjs/remark-lint) with my
 markdown style preferences
