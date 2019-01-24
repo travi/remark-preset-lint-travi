@@ -9,7 +9,7 @@
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
     "lint:js": "eslint . --cache",
-    "lint:md": "remark --quiet .",
+    "lint:md": "remark --frail .",
     "lint:travis": "travis-lint .travis.yml",
     "lint:sensitive": "ban",
     "test": "npm-run-all --print-label --parallel lint:*"
