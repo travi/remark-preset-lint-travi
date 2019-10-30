@@ -6,5 +6,6 @@ exports.plugins = [
   require('remark-validate-links'),
   [require('remark-lint-maximum-line-length'), 80],
   [require('remark-lint-ordered-list-marker-value'), 'one'],
-  require('remark-lint-no-empty-url')
+  require('remark-lint-no-empty-url'),
+  [require('remark-lint-unordered-list-marker-style'), '*']
 ];
