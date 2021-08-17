@@ -4,6 +4,7 @@
   "version": "0.0.0-semantically-released",
   "license": "MIT",
   "type": "module",
+  "exports": "./index.js",
   "engines": {
     "node": ">12.17"
   },
