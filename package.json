@@ -38,6 +38,6 @@
     "remark-cli": "9.0.0"
   },
   "dependencies": {
-    "@form8ion/remark-lint-preset": "2.0.0-alpha.1"
+    "@form8ion/remark-lint-preset": "2.0.0-alpha.2"
   }
 }
