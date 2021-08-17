@@ -16,7 +16,8 @@
     "lint:md": "remark --frail .",
     "lint:sensitive": "ban",
     "lint:peer": "npm ls >/dev/null",
-    "test": "npm-run-all --print-label --parallel lint:*"
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "prepare": "husky install"
   },
   "publishConfig": {
     "access": "public"
