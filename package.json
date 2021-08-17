@@ -3,6 +3,10 @@
   "description": "remark preset to configure remark-lint with my markdown style preferences",
   "version": "0.0.0-semantically-released",
   "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">12.17"
+  },
   "repository": "travi/remark-preset-lint-travi",
   "bugs": "https://github.com/travi/remark-preset-lint-travi/issues",
   "homepage": "https://npm.im/remark-preset-lint-travi",
@@ -33,6 +37,6 @@
     "remark-cli": "9.0.0"
   },
   "dependencies": {
-    "@form8ion/remark-lint-preset": "1.0.13"
+    "@form8ion/remark-lint-preset": "2.0.0-alpha.1"
   }
 }
