@@ -30,7 +30,7 @@ $ npm install remark remark-cli remark-preset-lint-travi --dev
 Add to the project's `.remarkrc.js`:
 
 ```js
-exports.plugins = ['remark-preset-lint-travi'];
+export default {plugins: ['remark-preset-lint-travi']};
 ```
 
 Add an npm script that will run as part of `npm test`:
