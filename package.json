@@ -6,7 +6,7 @@
   "type": "module",
   "exports": "./index.js",
   "engines": {
-    "node": ">12.17"
+    "node": ">=14.13.1"
   },
   "repository": "travi/remark-preset-lint-travi",
   "bugs": "https://github.com/travi/remark-preset-lint-travi/issues",
