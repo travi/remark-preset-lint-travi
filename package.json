@@ -41,6 +41,6 @@
     "remark-cli": "11.0.0"
   },
   "dependencies": {
-    "@form8ion/remark-lint-preset": "4.0.1"
+    "@form8ion/remark-lint-preset": "4.0.2"
   }
 }
