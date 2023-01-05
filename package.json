@@ -1,17 +1,17 @@
 {
   "name": "remark-preset-lint-travi",
   "description": "remark preset to configure remark-lint with my markdown style preferences",
-  "version": "0.0.0-semantically-released",
   "license": "MIT",
+  "version": "0.0.0-semantically-released",
   "type": "module",
-  "exports": "./index.js",
   "engines": {
     "node": "^14.15 || >=16"
   },
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "travi/remark-preset-lint-travi",
   "bugs": "https://github.com/travi/remark-preset-lint-travi/issues",
   "homepage": "https://npm.im/remark-preset-lint-travi",
-  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "exports": "./index.js",
   "scripts": {
     "lint:js": "eslint . --cache",
     "lint:md": "remark --frail .",
@@ -29,6 +29,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "dependencies": {
+    "@form8ion/remark-lint-preset": "4.0.2"
+  },
   "devDependencies": {
     "@travi/eslint-config-travi": "1.8.8",
     "ban-sensitive-files": "1.9.18",
@@ -39,8 +42,5 @@
     "npm-run-all": "4.1.5",
     "remark": "14.0.2",
     "remark-cli": "11.0.0"
-  },
-  "dependencies": {
-    "@form8ion/remark-lint-preset": "4.0.2"
   }
 }
