@@ -32,7 +32,7 @@
     }
   },
   "dependencies": {
-    "@form8ion/remark-lint-preset": "5.0.9"
+    "@form8ion/remark-lint-preset": "6.0.0"
   },
   "devDependencies": {
     "@travi/eslint-config-travi": "1.8.8",
